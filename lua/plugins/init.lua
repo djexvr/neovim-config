@@ -100,7 +100,7 @@ require("lazy").setup({
 		},
 		config = true,
 		opts = {
-			graph_style = { "unicode" },
+			graph_style = "unicode",
 		},
 		keys = {
 			{ "<leader>gg", "<cmd>Neogit<CR>", desc = "Open Neogit" },
